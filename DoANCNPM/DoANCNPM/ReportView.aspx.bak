@@ -1,0 +1,20 @@
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="ReportView.aspx.cs" Inherits="DoANCNPM.ReportView" %>
+
+<%@ Register assembly="DevExpress.XtraReports.v19.2.Web.WebForms, Version=19.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" namespace="DevExpress.XtraReports.Web" tagprefix="dx" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+</head>
+<body>
+    
+    <form id="form1" runat="server">
+        <label>Nhật hk 123</label>
+        <dx:ASPxWebDocumentViewer ID="ASPxWebDocumentViewer1" runat="server">
+        </dx:ASPxWebDocumentViewer>
+    </form>
+    
+</body>
+</html>
